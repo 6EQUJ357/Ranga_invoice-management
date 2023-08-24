@@ -21,8 +21,8 @@ const Signin = () => {
 
      //const [token, setToken] = useContext(store) 
      const [data, setData] = useState({
-        email:"",
-        password:""
+        email:"abhi6equj5@gmail.com",
+        password:"123456"
      })
 
      const {email, password}= data;
@@ -188,9 +188,9 @@ const Signin = () => {
                                                                 </ul>
                                                             </div> */}
                 
-                                                            <div className="mt-4 text-center">
+                                                            {/* <div className="mt-4 text-center">
                                                                 <p className="mb-0">Don't have an account ? <Link to ="/signup" className="fw-medium text-primary text-decoration-underline"> Signup now </Link> </p>
-                                                            </div>
+                                                            </div> */}
                                                         </form>
                                                     </div>
                                 

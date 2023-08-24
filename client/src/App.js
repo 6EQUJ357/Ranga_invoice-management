@@ -109,7 +109,7 @@ const App = () => {
               {/* login page */}
               <Route path='/companyprofile'  element={<Company_profile />}/>
               <Route path='/' element = {<Signin/>} />
-              <Route path='/signup' element = {<Signup/>} />
+              {/* <Route path='/signup' element = {<Signup/>} /> */}
               <Route path='/dashboard' element = {<Dashboard/>} />
 
               <Route path='/invoice' element = {<Invoice/>} />
