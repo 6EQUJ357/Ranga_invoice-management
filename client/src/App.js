@@ -4,7 +4,7 @@ import API_BASE_URL from './pages/components/config'
 import axios from 'axios'
 
 //pages import
-// import Company_profile from './pages/components/company_profile'
+import Company_profile from './pages/components/company_profile'
 
 import Signin from './pages/components/signin'
 import Signup from './pages/components/signup'
@@ -107,9 +107,9 @@ const App = () => {
             <Routes>
 
               {/* login page */}
-              {/* <Route path='/companyprofile'  element={<Company_profile />}/> */}
+              <Route path='/companyprofile'  element={<Company_profile />}/>
               <Route path='/' element = {<Signin/>} />
-              {/* <Route path='/signup' element = {<Signup/>} /> */}
+              <Route path='/signup' element = {<Signup/>} />
               <Route path='/dashboard' element = {<Dashboard/>} />
 
               <Route path='/invoice' element = {<Invoice/>} />

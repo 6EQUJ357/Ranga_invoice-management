@@ -6,7 +6,6 @@ import { Navigate, useNavigate} from 'react-router-dom'
 import { company_profile_store } from '../../App.js';
 import "../../App.css"
 
-
 import API_BASE_URL from "./config.js";
 
 
@@ -189,17 +188,17 @@ const Signin = () => {
                                                                 </ul>
                                                             </div> */}
                 
-                                                            {/* <div className="mt-4 text-center">
+                                                            <div className="mt-4 text-center">
                                                                 <p className="mb-0">Don't have an account ? <Link to ="/signup" className="fw-medium text-primary text-decoration-underline"> Signup now </Link> </p>
-                                                            </div> */}
+                                                            </div>
                                                         </form>
                                                     </div>
                                 
                                                 </div>
                                             </div>
                 
-                                            <div className="col-lg-6">
-                                                <div className="d-flex h-100 bg-auth align-items-end" style={{backgroundImage : "url('assets/images/crackersimage.jpg')"}}>
+                                            <div className="col-lg-6"> 
+                                                <div className="d-flex h-100 bg-auth align-items-end" style={{backgroundImage : "url('assets/images/favicon_io/android-chrome-512x512.png')"}}>
                                                     <div className="p-lg-5 p-4">
                                                         <div className="bg-overlay bg-primary"></div>
                                                         <div className="p-0 p-sm-4 px-xl-0 py-5">
